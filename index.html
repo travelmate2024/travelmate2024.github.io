@@ -1,5 +1,352 @@
+<!DOCTYPE HTML>
 <html>
-  <body>
-    <p>hola mundo</p>
-  </body>
+
+<head>
+	<title>Manual de Usuario de la Aplicación</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+
+	<!-- Sidebar -->
+	<section id="sidebar">
+		<div class="inner">
+			<nav>
+				<ul>
+					<li><img src="images/travelMateLogo.png" alt="Logo de la Aplicación"
+							style="width: 30%; height: 30%;"><br /><strong>TravelMate</strong></li>
+					<li><a href="#intro">Introducción</a></li>
+					<li><a href="#registro">Registro</a></li>
+					<li><a href="#inicio-sesion">Inicio de Sesión</a></li>
+					<li><a href="#olvido-contrasena">Olvido Contraseña</a></li>
+					<li><a href="#listado-viajes">Listado de Viajes</a></li>
+					<li><a href="#anadir-viaje">Añadir un Viaje</a></li>
+					<li><a href="#detalle-viaje">Detalle de un Viaje</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Intro -->
+		<section id="intro" class="wrapper style1 fullscreen fade-up">
+			<div class="inner">
+
+				<h1>Manual de Usuario de la Aplicación</h1>
+				<p>Este manual proporciona una guía detallada para utilizar las principales funciones de la aplicación.
+				</p>
+				<ul class="actions">
+					<li><a href="#registro" class="button scrolly">Comenzar</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Registro -->
+		<section id="registro" class="wrapper style2 spotlights">
+			<div class="inner">
+				<h2>Registro</h2>
+				<p><strong>Descripción:</strong> La funcionalidad de registro permite a los nuevos usuarios crear una
+					cuenta en la aplicación. A través de este proceso, los usuarios ingresan información personal que
+					será utilizada para identificar y personalizar su experiencia dentro de la aplicación.</p>
+				<p><strong>Pasos para el Registro:</strong></p>
+				<ol>
+					<li><strong>Acceso al Registro:</strong> Al abrir la aplicación por primera vez, el usuario verá una
+						pantalla de bienvenida con el listado de viajes, el cuál podrá ver el detalle de cada uno de
+						ellos. En la parte superior izquierda podrá seleccionar en el icono de usuario y se desplegará
+						el modal que gestiona el control de acceso a la aplicación. Podrá seleccionar "Registrarse" para
+						comenzar el proceso de creación de cuenta.</li>
+					<li><strong>Formulario de Registro:</strong> El usuario será dirigido a un formulario donde debe
+						proporcionar los siguientes datos:
+						<ul>
+							<li><strong>Nombre:</strong> Escribir su nombre real.</li>
+							<li><strong>Apellidos:</strong> Ingresar sus apellidos.</li>
+							<li><strong>Fecha de nacimiento:</strong> Seleccionar su fecha de nacimiento del calendario
+								proporcionado. (Debe ser mayor de edad)</li>
+							<li><strong>Nickname:</strong> Escribir un apodo que utilizará dentro de la aplicación.</li>
+							<li><strong>Correo electrónico:</strong> Ingresar una dirección de correo válida. Este
+								correo será utilizado para la verificación de la cuenta y futuras comunicaciones.</li>
+							<li><strong>Contraseña:</strong> Establecer una contraseña segura que contenga al menos ocho
+								caracteres, incluyendo letras, números o símbolos.</li>
+							<li><strong>Descripción sobre sí mismo (Opcional):</strong> Escribir algo sobre que desee
+								compartir con otros usuarios.</li>
+							<li><strong>Aceptación de términos y condiciones:</strong> Leer los términos y condiciones
+								de uso de la aplicación y marcar la casilla de aceptación.</li>
+						</ul>
+					</li>
+					<li><strong>Validación de Datos:</strong> Una vez que todos los campos estén completos, podrá pulsar
+						el botón "Registrar". El sistema revisará los datos ingresados para asegurarse de que todos los
+						campos obligatorios están completos y que la información es válida.</li>
+					<li><strong>Creación de la Cuenta:</strong> Si todos los datos son válidos, el sistema creará la
+						cuenta del usuario y lo redirigirá automáticamente al listado de viajes disponibles en la
+						aplicación y lo autologueará. Ahora, el usuario puede comenzar utilizar todas las
+						funcionalidades de la aplicación.</li>
+				</ol>
+				<p><strong>Errores Comunes y Soluciones:</strong></p>
+				<ul>
+					<li><strong>Correo electrónico inválido:</strong> Asegúrese de que la dirección de correo tiene el
+						formato correcto (ejemplo@dominio.com).</li>
+					<li><strong>Contraseña no segura:</strong> Cree una contraseña que tenga al menos ocho caracteres y
+						que incluya tanto letras como números o símbolos.</li>
+					<li><strong>Campos obligatorios incompletos:</strong> Revise que todos los campos marcados como
+						obligatorios estén llenos.</li>
+				</ul>
+				<div class="embed-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/vxL4u3m7Z_0?si=vsitKj4RulJSPeJq"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+
+		<!-- Inicio de Sesión -->
+		<section id="inicio-sesion" class="wrapper style3 fade-up">
+			<div class="inner">
+				<h2>Inicio de Sesión</h2>
+				<p><strong>Descripción:</strong> Esta función permite a los usuarios registrados acceder a sus cuentas
+					utilizando sus credenciales (correo electrónico y contraseña).</p>
+				<p><strong>Pasos para Iniciar Sesión:</strong></p>
+				<ol>
+					<li><strong>Acceso a la Pantalla de Inicio de Sesión:</strong> En la pantalla principal de la
+						aplicación, en la parte superior izquierda podrá seleccionar en el icono de usuario y se
+						desplegará el modal que gestiona el control de acceso a la aplicación. Usuario deberá
+						Seleccionar la opción "Iniciar sesión".</li>
+					<li><strong>Ingreso de Credenciales:</strong> Se mostrará un formulario en el que el usuario deberá
+						ingresar su correo electrónico y contraseña:
+						<ul>
+							<li><strong>Correo electrónico:</strong> Ingresar el correo electrónico con el que se
+								registró.</li>
+							<li><strong>Contraseña:</strong> Escribir la contraseña que creó durante el registro.</li>
+						</ul>
+					</li>
+					<li><strong>Validación de Credenciales:</strong> Pulse el botón "Iniciar sesión". El sistema
+						validará sus credenciales:
+						<ul>
+							<li>Si las credenciales son correctas, será redirigido al listado de viajes.</li>
+							<li>Si las credenciales son incorrectas, se mostrará un mensaje de error indicando que el
+								correo electrónico o la contraseña son inválidos.</li>
+						</ul>
+					</li>
+					<li><strong>Acceso a la Aplicación:</strong> Una vez que haya iniciado sesión con éxito, podrá
+						acceder a todas las funciones disponibles para los usuarios registrados, como añadir nuevos
+						viajes, ver detalles de los viajes y unirse a ellos.</li>
+				</ol>
+				<p><strong>Errores Comunes y Soluciones:</strong></p>
+				<ul>
+					<li><strong>Correo electrónico o contraseña incorrectos:</strong> Verifique que ha ingresado el
+						correo y la contraseña correctos. Si ha olvidado su contraseña, utilice la opción "¿Olvidaste tu
+						contraseña?" para recuperarla.</li>
+					<li><strong>Campos vacíos:</strong> Asegúrese de completar ambos campos antes de intentar iniciar
+						sesión.</li>
+				</ul>
+				<div class="embed-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/_PkUw0-4GwI?si=ttEg6NHnbD2mIZJt"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+
+		<!-- Olvido Contraseña -->
+		<section id="olvido-contrasena" class="wrapper style1 fade-up">
+			<div class="inner">
+				<h2>Olvido Contraseña</h2>
+				<p><strong>Descripción:</strong> Esta función está diseñada para ayudar a los usuarios a recuperar el
+					acceso a sus cuentas en caso de haber olvidado su contraseña.</p>
+				<p><strong>Pasos para Recuperar la Contraseña:</strong></p>
+				<ol>
+					<li><strong>Acceso a la Opción de Recuperación:</strong> En la parte superior izquierda podrá
+						seleccionar en el icono de usuario y se desplegará el modal que gestiona el control de acceso a
+						la aplicación. En la pantalla de inicio de sesión, seleccione "¿Olvidaste tu contraseña?".</li>
+					<li><strong>Ingreso del Correo Electrónico:</strong> Se mostrará un formulario donde debe ingresar
+						el correo electrónico asociado a su cuenta. Es importante que ingrese el correo correctamente,
+						ya que el sistema no realizará ninguna acción si el correo no coincide con alguna cuenta
+						registrada.</li>
+					<li><strong>Validación del Correo Electrónico:</strong> Pulse el botón "Recuperar contraseña". El
+						sistema verificará si el correo electrónico ingresado existe en la base de datos:
+						<ul>
+							<li>Si el correo está registrado, el sistema enviará un correo electrónico con instrucciones
+								para restablecer la contraseña.</li>
+							<li>Si el correo no está registrado, no se realizará ninguna acción, pero se mostrará un
+								mensaje informativo genérico.</li>
+						</ul>
+					</li>
+					<li><strong>Restablecimiento de la Contraseña:</strong> Revise su bandeja de entrada y siga las
+						instrucciones del correo electrónico. Tras esto podrá usarla para iniciar sesión en la
+						aplicación.</li>
+				</ol>
+				<p><strong>Errores Comunes y Soluciones:</strong></p>
+				<ul>
+					<li><strong>Correo electrónico no registrado:</strong> Asegúrese de ingresar el correo electrónico
+						correcto. Si no recuerda el correo con el que se registró, puede intentar con otro correo que
+						utilice frecuentemente.</li>
+					<li><strong>No recibe el correo de recuperación:</strong> Verifique su carpeta de spam o correo no
+						deseado. Si no encuentra el correo, espere unos minutos y vuelva a intentarlo.</li>
+				</ul>
+				<div class="embed-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/oakl0eoBGks?si=kz8PUHipBbhJnfQ9"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+
+		<!-- Listado de Viajes -->
+		<section id="listado-viajes" class="wrapper style2 spotlights">
+			<div class="inner">
+				<h2>Listado de Viajes</h2>
+				<p><strong>Descripción:</strong> Esta sección muestra un listado de todos los viajes disponibles creados
+					por los usuarios. Los viajes están listados del más próximo al más lejano por fecha.</p>
+				<p><strong>Pasos para Visualizar el Listado de Viajes:</strong></p>
+				<ol>
+					<li><strong>Acceso al Listado:</strong> Desde la pantalla principal de la aplicación, acceda a la
+						sección "Viajes" en el menú principal. Se mostrará un listado de todos los viajes disponibles.
+					</li>
+					<li><strong>Visualización del Listado:</strong> Los viajes mostrarán varios datos de cada viaje en
+						forma de tarjetas que dan información al usuario a simple vista del mismo. Entre estos datos
+						podremos visualizar:
+						<ul>
+							<li>Foto del creador.</li>
+							<li>Ciudad de origen y Ciudad de destino.</li>
+							<li>Fecha de inicio y fecha de fin.</li>
+							<li>Duración del viaje en días.</li>
+							<li>Cantidad de participantes que se han apuntado al viaje (Creador incluido).</li>
+							<li>Métodos de transporte que se van a usar durante el viaje.</li>
+						</ul>
+					</li>
+				</ol>
+				<div class="embed-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/4q1tnxoalns?si=NSj4ne7JNySR7tRN"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+
+		<!-- Añadir un Viaje -->
+		<section id="anadir-viaje" class="wrapper style3 fade-up">
+			<div class="inner">
+				<h2>Añadir un Viaje</h2>
+				<p><strong>Descripción:</strong> Esta función permite a los usuarios registrados crear y publicar nuevos
+					viajes en la aplicación. Los usuarios pueden especificar todos los detalles del viaje, como el
+					origen, destino, fecha, hora, y una descripción que suele contener toda la información de lo que se
+					va a realizar en el viaje.</p>
+				<p><strong>Pasos para Añadir un Viaje:</strong></p>
+				<ol>
+					<li><strong>Acceso al Formulario de Creación:</strong> En la pantalla principal de la aplicación,
+						seleccione la opción "Añadir Viaje".</li>
+					<li><strong>Ingreso de Información del Viaje:</strong> Complete el formulario con los detalles del
+						viaje:
+						<ul>
+							<li><strong>Origen:</strong> Especifique el lugar de partida.</li>
+							<li><strong>Destino:</strong> Especifique el lugar de destino.</li>
+							<li><strong>Fecha y hora de salida:</strong> Seleccione la fecha y hora en la que comenzará
+								el viaje.</li>
+							<li><strong>Descripción del viaje:</strong> Proporcione información adicional sobre el
+								viaje.</li>
+							<li><strong>Medio de transporte:</strong> Indique el medio de transporte que se utilizará.
+							</li>
+						</ul>
+					</li>
+					<li><strong>Publicación del Viaje:</strong> Revise la información ingresada y pulse el botón
+						"Publicar Viaje". El sistema validará la información y, si es correcta, publicará el viaje en el
+						listado de viajes disponibles. Al volver al listado el viaje creado aparecerá automáticamente
+						sin necesidad de realizar una recarga de datos manual.</li>
+				</ol>
+				<div class="embed-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/OV3bngZU_QA?si=vS2GeGNv_a5h5urV"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+
+		<!-- Detalle de un Viaje -->
+		<section id="detalle-viaje" class="wrapper style1 fade-up">
+			<div class="inner">
+				<h2>Detalle de un Viaje</h2>
+				<p><strong>Descripción:</strong> Esta función permite a los usuarios visualizar la información detallada
+					de un viaje específico, unirse al viaje, desapuntarse o eliminarlo (si son los creadores del viaje).
+				</p>
+				<p><strong>Pasos para Ver el Detalle de un Viaje:</strong></p>
+				<ol>
+					<li><strong>Seleccionar un Viaje:</strong> Desde el listado de viajes, haga clic en el viaje sobre
+						el que desea obtener más información.</li>
+					<li><strong>Visualización de Detalles:</strong> El sistema mostrará la información detallada del
+						viaje, que incluye:
+						<ul>
+							<li><strong>Origen:</strong> Punto de partida del viaje.</li>
+							<li><strong>Destino:</strong> Lugar al que se dirige el viaje.</li>
+							<li><strong>Fecha de salida:</strong> Cuándo comenzará el viaje.</li>
+							<li><strong>Fecha de vuelta:</strong> Cuándo finalizará el viaje.</li>
+							<li><strong>Descripción del viaje:</strong> Información adicional proporcionada por el
+								creador del viaje.</li>
+							<li><strong>Transporte:</strong> Medio de transporte que se utilizará (si se especificó).
+							</li>
+						</ul>
+					</li>
+					<li><strong>Acciones Disponibles:</strong>
+						<ul>
+							<li><strong>Unirse al Viaje:</strong> Si es un usuario registrado, verá una opción para
+								unirse al viaje. Seleccione esta opción para confirmar su participación.</li>
+							<li><strong>Desapuntarse del Viaje:</strong> Si ya se ha unido al viaje, puede optar por
+								desapuntarse seleccionando la opción correspondiente.</li>
+							<li><strong>Borrar el Viaje:</strong> Si usted es el creador del viaje, tendrá la opción de
+								borrar el viaje. Seleccione esta opción y confirme para eliminar el viaje de la lista.
+							</li>
+							<li><strong>Iniciar Sesión para Unirse:</strong> Si es un usuario no registrado, podrá ver
+								la información del viaje, pero al intentar unirse se le pedirá que inicie sesión.</li>
+						</ul>
+					</li>
+				</ol>
+				<p><strong>Consejos para Interactuar:</strong></p>
+				<ul>
+					<li>Revise los detalles del viaje antes de unirse para asegurarse de que se ajusta a sus planes y
+						preferencias.</li>
+					<li>Si es el creador del viaje, asegúrese de mantener la información del viaje actualizada y
+						correcta para evitar confusiones entre los participantes.</li>
+				</ul>
+				<div class="embed-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/N5wLnpa11go?si=yIOUCkEhUqu4gjOq"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper style1-alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>&copy; TravelMate. All rights reserved.</li>
+				<li><a href="terms.html">Términos y Condiciones</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
